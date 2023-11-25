@@ -8,8 +8,7 @@ profile:
   align: left
   image: picture.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>📜 [Resume](assets/pdf/TejasAnvekar_Resume_v7.pdf)</p>
+  more_info: [📜Resume](assets/pdf/TejasAnvekar_Resume_v7.pdf)
 
 
 news: true  # includes a list of news items
@@ -18,10 +17,26 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-**👋Hi! I'm Tejas!** currently working as Research Assistant at [KLE Technological University](https://www.kletech.ac.in/), collaborating with [Prof. Uma Mudenagudi](https://kletech.irins.org/profile/159972#other_information_panel) @ CoE Visual Intelligence [(CEVI)](https://www.kletech.ac.in/research-innovation/research-centres/cevi). 
+**👋Hi! I'm Tejas!** currently working as <span id="item-1">Research Assistant</span> at [KLE Technological University](https://www.kletech.ac.in/), collaborating with [Prof. Uma Mudenagudi](https://kletech.irins.org/profile/159972#other_information_panel) @ CoE Visual Intelligence [(CEVI)](https://www.kletech.ac.in/research-innovation/research-centres/cevi). 
 
 My research focus spans the domains of **3D Comupter Vision**, **Self-Supervised Learning**, and **Continual Learning**, with the penultimate aim of bestowing robots with a human-like perception. 
 
 Beyond by academic endeavors, I serve as an external collaborator to distinguised scholars including [Prof. Chandra Kambhamettu](https://www.eecis.udel.edu/~chandra/) @ [VIMS Lab](https://bigdatavision.org/) &#x7c; University of Delaware and [Dr. Dena Bazazian](https://denabazazian.github.io/) @ University of Plymouth. 
 
 I did my Bachelor's degree in Electronics and Communication at [KLE Technological University](https://www.kletech.ac.in/), India where I was advised by [Prof. Uma Mudenagudi](https://kletech.irins.org/profile/159972#other_information_panel) and worked on Self-Supervised geometric methods for a DST funded project to Categorize Crowdsourced data.
+
+<script type="module">
+      import { annotate, annotationGroup } from 'https://unpkg.com/rough-notation?module';
+      
+      const n1 = document.querySelector('em');
+      const n2 = document.querySelector('strong');
+      const n3 = document.querySelector('item-1');
+      
+      const a1 = annotate(n1, { type: 'underline', color: 'blue' });
+      const a2 = annotate(n2, { type: 'circle', color: 'red', padding: 10 });
+      const a3 = annotate(n3, { type: 'highlight', color: 'yellow' });
+      
+      const ag = annotationGroup([a1, a2, a3]);
+      ag.show();
+      
+</script>
