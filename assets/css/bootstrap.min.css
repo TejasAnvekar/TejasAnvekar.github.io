@@ -456,6 +456,11 @@ small {
     font-size: 1.25rem
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto
+}
+
 .figure {
     display: inline-block
 }
@@ -1779,9 +1784,23 @@ a.close.disabled {
     border-left: 1px solid #dee2e6 !important
 }
 
+.rounded {
+    border-radius: .25rem !important
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: ""
+}
+
 .flex-nowrap {
     -ms-flex-wrap: nowrap !important;
     flex-wrap: nowrap !important
+}
+
+.float-left {
+    float: left !important
 }
 
 .position-static {
@@ -1843,6 +1862,10 @@ a.close.disabled {
 
 .font-weight-lighter {
     font-weight: lighter !important
+}
+
+.font-weight-bold {
+    font-weight: 700 !important
 }
 
 .visible {
