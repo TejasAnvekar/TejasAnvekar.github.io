@@ -197,7 +197,7 @@ a:not([href]):not([class]):hover {
 }
 
 .highlight-text-purple {
-    background: linear-gradient(to left, rgb(255, 154, 255) 50%, transparent 50%);
+    background: linear-gradient(to left, rgb(255, 0, 255) 50%, transparent 50%);
     background-size: 200% 100%;
     animation: highlight 1.5s ease-in-out forwards, jitter 0.1s infinite alternate;
 }
