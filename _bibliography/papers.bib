@@ -1,84 +1,157 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@InProceedings{Hegde_2022_CVPR,
+    abbr      = {CVPR-W},
+    abstract  = {In this paper, we propose DA-AE: Disparity Alleviation AutoEncoder for categorization of heritage images towards 3D reconstruction. Recent survey on preservation of heritage shows demand for the digitization and conservations of heritage sites owing to their susceptibility to natural disasters and human acts. Digital conservation can be facilitated via crowdsourcing of data useful for construction of 3D models. Data from multiple sites sourced may result in elimination of relevant images due to the limitations of the pipeline. Curation and categorization of the crowdsourced data enables better 3D reconstruction. 3D reconstruction pipelines demand correlation between the data and also tries to eliminate the irrelevant information. The reconstruction pipeline is sensitive to selection of initial pair for reconstruction. By categorising individual sites, crowdsourced data can be used to create better 3D reconstructed models. Categorization of crowdsourced data demands learning robust representations of data. Towards this, we propose DA-AE for improved representation and categorization of data in latent space, along with a disparity alleviation loss. We demonstrate categorization as an event, with clustering as a downstream task. We compare our results of clustering with state-of-the-art methods on benchmark datasets (MNIST, FashionMNIST, and USPS). We demonstrate the effects of our categorization using custom dataset IDH10 and compare the results with state-of-the-art methods. We show a systematic and qualitative influence of the proposed method on 3D reconstruction of data. },
+    author    = {Hegde, Dikshit and Anvekar, Tejas and Tabib, Ramesh Ashok and Mudengudi, Uma},
+    title     = {DA-AE: Disparity-Alleviation Auto-Encoder Towards Categorization of Heritage Images for Aggrandized 3D Reconstruction.},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2022},
+    pages     = {5093-5100},
+    video     = {https://www.youtube.com/watch?v=OF6pEk6fNBE},
+    pdf       = { https://openaccess.thecvf.com/content/CVPR2022W/IMW/papers/Hegde_DA-AE_Disparity-Alleviation_Auto-Encoder_Towards_Categorization_of_Heritage_Images_for_Aggrandized_CVPRW_2022_paper.pdf},
+    bibtex_show  = true
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{10.1145/3550082.3564198,
+    abbr     = {SIGGRAPH-ASIA},
+    abstrac  = {In this work, we propose a novel Metric-K Nearest Neighbor (-KNN) to facilitate topology aware learning in point clouds. Topology aware learning is achieved by accumulation of local features in deep-learning model. Recent work rely on Ball queries or K-Nearest-Neighbor (KNN) for local feature extraction of point clouds and finds challenges in retaining topological information. -KNN employes a generalised Minkowski distance in the KNN search algorithm for topological representation of point clouds. -KNN enables state-of-the-art point cloud methods to perform topology aware downstream tasks. We demonstrate the performance of -KNN as plugin towards point cloud classification, part-segmentation, and denoising using benchmark dataset. },
+    author   = {Anvekar, Tejas and Tabib, Ramesh Ashok and Hegde, Dikshit and Mudenagudi, Uma},
+    title    = {Metric-KNN is All You Need},
+    year     = {2022},
+    isbn     = {9781450394628},
+    publisher = {Association for Computing Machinery},
+    address  = {New York, NY, USA},
+    url      = {https://doi.org/10.1145/3550082.3564198},
+    doi      = {10.1145/3550082.3564198},
+    booktitle = {SIGGRAPH Asia 2022 Posters},
+    articleno = {31},
+    numpages  = {2},
+    keywords  = {Classification, Denoising, K Nearest Neighbour, Point cloud representation, Segmentation},
+    location  = {Daegu, Republic of Korea},
+    series    = {SA '22},
+    video     = {https://www.youtube.com/watch?v=O_aDiHsDgvw},
+    bibtex_show  = true
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@InProceedings{Anvekar_2023_CVPR,
+    abbr      = {CVPR-W},
+    abstract  = {In the realm of 3D-computer vision applications, point cloud few-shot learning plays a critical role. However, it poses an arduous challenge due to the sparsity, irregularity, and unordered nature of the data. Current methods rely on complex local geometric extraction techniques such as convolution, graph, and attention mechanisms, along with extensive data-driven pre-training tasks. These approaches contradict the fundamental goal of few-shot learning, which is to facilitate efficient learning. To address this issue, we propose GPr-Net (Geometric Prototypical Network), a lightweight and computationally efficient geometric prototypical network that captures the intrinsic topology of point clouds and achieves superior performance. Our proposed method, IGI++(Intrinsic Geometry Interpreter++) employs vector-based hand-crafted intrinsic geometry interpreters and Laplace vectors to extract and evaluate point cloud morphology, resulting in improved representations for FSL (Few-Shot Learning). Additionally, Laplace vectors enable the extraction of valuable features from point clouds with fewer points. To tackle the distribution drift challenge in few-shot metric learning, we leverage hyperbolic space and demonstrate that our approach handles intra and inter-class variance better than existing point cloud few-shot learning methods. Experimental results on the ModelNet40 dataset show that GPr-Net outperforms state-of-the-art methods in few-shot learning on point clouds, achieving utmost computational efficiency that is 170x better than all existing works. The code is publicly available at https://github. com/TejasAnvekar/GPr-Net. },
+    author    = {Anvekar, Tejas and Bazazian, Dena},
+    title     = {GPr-Net: Geometric Prototypical Network for Point Cloud Few-Shot Learning},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {4178-4187},
+    abstract = {In the realm of 3D-computer vision applications, point cloud few-shot learning plays a critical role. However, it poses an arduous challenge due to the sparsity, irregularity, and unordered nature of the data. Current methods rely on complex local geometric extraction techniques such as convolution, graph, and attention mechanisms, along with extensive data-driven pre-training tasks. These approaches contradict the fundamental goal of few-shot learning, which is to facilitate efficient learning. To address this issue, we propose GPr-Net (Geometric Prototypical Network), a lightweight and computationally efficient geometric prototypical network that captures the intrinsic topology of point clouds and achieves superior performance. Our proposed method, IGI++(Intrinsic Geometry Interpreter++) employs vector-based hand-crafted intrinsic geometry interpreters and Laplace vectors to extract and evaluate point cloud morphology, resulting in improved representations for FSL (Few-Shot Learning). Additionally, Laplace vectors enable the extraction of valuable features from point clouds with fewer points. To tackle the distribution drift challenge in few-shot metric learning, we leverage hyperbolic space and demonstrate that our approach handles intra and inter-class variance better than existing point cloud few-shot learning methods. Experimental results on the ModelNet40 dataset show that GPr-Net outperforms state-of-the-art methods in few-shot learning on point clouds, achieving utmost computational efficiency that is 170x better than all existing works. The code is publicly available at https://github. com/TejasAnvekar/GPr-Net.},
+    arxiv = {2304.06007}, 
+    bibtex_show  = true, 
+    pdf = {https://openaccess.thecvf.com/content/CVPR2023W/DLGC/papers/Anvekar_GPr-Net_Geometric_Prototypical_Network_for_Point_Cloud_Few-Shot_Learning_CVPRW_2023_paper.pdf}, 
+    selected = true,  
+    code = {https://github.com/TejasAnvekar/GPr-Net}, 
+    video = {https://drive.google.com/file/d/11I5iM36nXg8XnLRWHXfOIBdK-oy54RDi/view}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@InProceedings{Tabib_2023_CVPR,
+    abbr={CVPR-W},
+    abstract ={In this paper, we propose IPD-Net: Invariant Primitive Decompositional Network, a SO (3) invariant framework for decomposition of a point cloud. The human cognitive system is able to identify and interpret familiar objects regardless of their orientation and abstraction. Recent research aims to bring this capability to machines for understanding the 3D world. In this work, we present a framework inspired by human cognition to decompose point clouds into four primitive 3D shapes (plane, cylinder, cone, and sphere) and enable machines to understand the objects in various orientations. We employ Implicit Invariant Features (IIF) to learn local geometric relations by implicitly representing the point cloud with enhanced geometric information invariant towards SO (3) rotations. We also use Spatial Rectification Unit (SRU) to extract invariant global signatures. We demonstrate the results of our proposed methodology for SO (3) invariant decomposition on TraceParts Dataset, and show the generalizability of proposed IPD-Net as plugin for downstream task on classification of point clouds. We compare the results of classification with state-of-the-art methods on benchmark dataset (ModelNet40).},
+    author    = {Tabib, Ramesh Ashok and Upasi, Nitishkumar and Anvekar, Tejas and Hegde, Dikshit and Mudenagudi, Uma},
+    title     = {IPD-Net: SO(3) Invariant Primitive Decompositional Network for 3D Point Clouds},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {2735-2743},
+    video     = {https://www.youtube.com/watch?v=h26HT76zcGc},
+    pdf       = {https://openaccess.thecvf.com/content/CVPR2023W/StruCo3D/papers/Tabib_IPD-Net_SO3_Invariant_Primitive_Decompositional_Network_for_3D_Point_Clouds_CVPRW_2023_paper.pdf},
+    bibtex_show  = true
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@misc{kundargi2023pointclimb,
+      abbr      = {arXiv},
+      abstract  = {Point clouds offer comprehensive and precise data regarding the contour and configuration of objects. Employing such geometric and topological 3D information of objects in class incremental learning can aid endless application in 3D-computer vision. Well known 3D-point cloud class incremental learning methods for addressing catastrophic forgetting generally entail the usage of previously encountered data, which can present difficulties in situations where there are restrictions on memory or when there are concerns about the legality of the data. Towards this we pioneer to leverage exemplar free class incremental learning on Point Clouds. In this paper we propose PointCLIMB: An exemplar Free Class Incremental Learning Benchmark. We focus on a pragmatic perspective to consider novel classes for class incremental learning on 3D point clouds. We setup a benchmark for 3D Exemplar free class incremental learning. We investigate performance of various backbones on 3D-Exemplar Free Class Incremental Learning framework. We demonstrate our results on ModelNet40 dataset.},
+      title     = {PointCLIMB: An Exemplar-Free Point Cloud Class Incremental Benchmark}, 
+      author    = {Shivanand Kundargi and Tejas Anvekar and Ramesh Ashok Tabib and Uma Mudenagudi},
+      year      = {2023},
+      eprint    = {2304.06775},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.CV},
+      arxiv     = {2304.06775.pdf},
+      pdf       = {https://browse.arxiv.org/pdf/2304.06775.pdf},
+    bibtex_show  = true
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@InProceedings{Anvekar_2022_CVPR,
+    abbr      = {CVPR-W},
+    abstract  = {In this paper, we propose VG-VAE: Venatus Geometric Variational Auto-Encoder for capturing unsupervised hierarchical local and global geometric signatures in pointcloud. Recent research emphasises the significance of the underlying intrinsic geometry for pointcloud processing. Our contribution is to extract and analyse the morphology of the pointcloud using the proposed Geometric Proximity Correlator (GPC) and variational sampling of the latent. The extraction of local geometric signatures is facilitated by the GPC, whereas the extraction of global geometry is facilitated by variational sampling. Furthermore, we apply a naive mix of vector algebra and 3D geometry to extract the basic per-point geometric signature, which assists the unsupervised hypothesis. We provide statistical analyses of local and global geometric signatures. The impacts of our geometric features are demonstrated on pointcloud classification as downstream task using the classic pointcloud feature extractor PointNet. We demonstrate our analysis on ModelNet40 a benchmark dataset, and compare with state-of-the-art techniques. },
+    author    = {Anvekar, Tejas and Tabib, Ramesh Ashok and Hegde, Dikshit and Mudengudi, Uma},
+    title     = {VG-VAE: A Venatus Geometry Point-Cloud Variational Auto-Encoder},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2022},
+    pages     = {2978-2985},
+    video     = {https://www.youtube.com/watch?v=vDF61_EMKBU},
+    pdf       = {https://openaccess.thecvf.com/content/CVPR2022W/DLGC/papers/Anvekar_VG-VAE_A_Venatus_Geometry_Point-Cloud_Variational_Auto-Encoder_CVPRW_2022_paper.pdf},
+    selected  = true,
+    bibtex_show  = true
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+
+@InProceedings{Kiefer_2023_WACV,
+    abbr      = {WACV-C},
+    abstract  = {The 1st Workshop on Maritime Computer Vision (MaCVi)| 2023 focused on maritime computer vision for Unmanned| Aerial Vehicles (UAV) and Unmanned Surface Vehicle (USV),| and organized several subchallenges in this domain:(i) UAV-based Maritime Object Detection,(ii) UAV-based Maritime Object Tracking,(iii) USV-based Maritime Obstacle Segmentation and (iv) USV-based Maritime Obstacle Detection. The subchallenges were based on the SeaDronesSee and MODS| benchmarks. This report summarizes the main findings of the| individual subchallenges and introduces a new benchmark,| called SeaDronesSee Object Detection v2, which extends the| previous benchmark by including more classes and footage.| We provide statistical and qualitative analyses, and assess| trends in the best-performing methodologies of over 130| submissions. The methods are summarized in the appendix.| The datasets, evaluation code and the leaderboard are| publicly available (https://seadronessee. cs. uni-tuebingen. de/macvi).},
+    author    = {Kiefer, Benjamin and Kristan, Matej and Per\v{s}, Janez and \v{Z}ust, Lojze and Poiesi, Fabio and Andrade, Fabio and Bernardino, Alexandre and Dawkins, Matthew and Raitoharju, Jenni and Quan, Yitong and Atmaca, Adem and H\"ofer, Timon and Zhang, Qiming and Xu, Yufei and Zhang, Jing and Tao, Dacheng and Sommer, Lars and Spraul, Raphael and Zhao, Hangyue and Zhang, Hongpu and Zhao, Yanyun and Augustin, Jan Lukas and Jeon, Eui-ik and Lee, Impyeong and Zedda, Luca and Loddo, Andrea and Di Ruberto, Cecilia and Verma, Sagar and Gupta, Siddharth and Muralidhara, Shishir and Hegde, Niharika and Xing, Daitao and Evangeliou, Nikolaos and Tzes, Anthony and Bartl, Vojt\v{e}ch and \v{S}pa\v{n}hel, Jakub and Herout, Adam and Bhowmik, Neelanjan and Breckon, Toby P. and Kundargi, Shivanand and Anvekar, Tejas and Tabib, Ramesh Ashok and Mudenagudi, Uma and Vats, Arpita and Song, Yang and Liu, Delong and Li, Yonglin and Li, Shuman and Tan, Chenhao and Lan, Long and Somers, Vladimir and De Vleeschouwer, Christophe and Alahi, Alexandre and Huang, Hsiang-Wei and Yang, Cheng-Yen and Hwang, Jenq-Neng and Kim, Pyong-Kun and Kim, Kwangju and Lee, Kyoungoh and Jiang, Shuai and Li, Haiwen and Ziqiang, Zheng and Vu, Tuan-Anh and Nguyen-Truong, Hai and Yeung, Sai-Kit and Jia, Zhuang and Yang, Sophia and Hsu, Chih-Chung and Hou, Xiu-Yu and Jhang, Yu-An and Yang, Simon and Yang, Mau-Tsuen},
+    title     = {1st Workshop on Maritime Computer Vision (MaCVi) 2023: Challenge Results},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {January},
+    year      = {2023},
+    pages     = {265-302},
+    pdf       = {https://openaccess.thecvf.com/content/WACV2023W/MaCVi/papers/Kiefer_1st_Workshop_on_Maritime_Computer_Vision_MaCVi_2023_Challenge_Results_WACVW_2023_paper.pdf},
+    bibtex_show  = true
 }
+
+@InProceedings{Kumbar_2023_ICCV,
+    abbr={ICCV-W},
+    abstract ={ In this paper, we introduce ASUR3D, a novel methodology for the arbitrary-scale upsampling of 3D point clouds employing Local Occupancy Representation. Our proposed implicit occupancy representation enables efficient point classification, effectively discerning points belonging to the surface from non-surface points. Learning an implicit representation of open surfaces, enables one to capture the better local neighbourhood representation, leading to finer refinement and reconstruction with enhanced preservation of intricate geometric details. Leveraging this capability, we can accurately sample an arbitrary number of points on the surface, facilitating precise and flexible upsampling. We demonstrate the effectiveness of ASUR3D on PUGAN and PU1K benchmark datasets. Our proposed method achieves state-of-the-art results on all benchmarks and for all evaluation metrics. Additionally, we demonstrate the efficacy of our methodology on self-proposed heritage data generated through photogrammetry, further confirming its effectiveness in diverse scenarios. The code is publicly available at https://github. com/Akash-Kumbar/ASUR3D},
+    author    = {Kumbar, Akash and Anvekar, Tejas and Tabib, Ramesh Ashok and Mudenagudi, Uma},
+    title     = {ASUR3D: Arbitrary Scale Upsampling and Refinement of 3D Point Clouds Using Local Occupancy Fields},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2023},
+    pages     = {1652-1661},
+    pdf       = {https://openaccess.thecvf.com/content/ICCV2023W/e-Heritage/papers/Kumbar_ASUR3D_Arbitrary_Scale_Upsampling_and_Refinement_of_3D_Point_Clouds_ICCVW_2023_paper.pdf},
+    selected  = true,
+    video     = {https://www.youtube.com/watch?v=_fs3b8oMvKc} ,
+    bibtex_show  = true
+}
+
+@InProceedings{Tabib_2023_ICCV,
+    abbr={ICCV-W},
+    abstract ={ In this paper, we propose DeFi: a novel perspective for hole detection and filling of a given deteriorated 3D point cloud towards digital preservation of cultural heritage sites. Preservation of heritage demands digitization as cultural heritage sites deteriorate due to natural calamities and human activities. Digital preservation promotes acquisition of 3D data using 3D sensor or Multi-view reconstruction. Unfortunately, 3D data acquisition finds challenges due to the limitations in sensor technology and inappropriate capture conditions, leading to formation of missing regions or holes in the acquired point cloud. To address this, we propose a pipeline consisting of detection of hole boundaries, and understanding the geometry of the hole boundaries to fill the region of the point cloud. Recent research on hole detection and filling fails to generalize on complex structures such as heritage sites, as they find challenges in differentiating between the hole boundary and non-hole boundary points. To address this, we propose to detect boundary points of point cloud and learn to classify them into" hole boundary" and" non-hole boundary" points. We generate a synthetic dataset based on ModelNet40 to learn the detection of hole boundaries. We demonstrate the results of the proposed pipeline on (i) ModelNet40 dataset,(ii) Heritage 3D models generated via photogrammetry, and compare the results with state-of-the-art methods.},
+    author    = {Tabib, Ramesh Ashok and Hegde, Dikshit and Anvekar, Tejas and Mudenagudi, Uma},
+    title     = {DeFi: Detection and Filling of Holes in Point Clouds Towards Restoration of Digitized Cultural Heritage Models},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2023},
+    pages     = {1603-1612},
+    video     = {https://www.youtube.com/watch?v=6I4SuJ10KGc},
+    pdf       = {https://openaccess.thecvf.com/content/ICCV2023W/e-Heritage/papers/Tabib_DeFi_Detection_and_Filling_of_Holes_in_Point_Clouds_Towards_ICCVW_2023_paper.pdf},
+    bibtex_show  = true
+
+}
+
+@InProceedings{Kumbar_2023_ICCV,
+    abbr={ICCV-W},
+    abstract  = {In this paper, we propose TP-NoDe, a novel Topology-aware Progressive Noising and Denoising technique for 3D point cloud upsampling. TP-NoDe revisits the traditional method of upsampling of the point cloud by introducing a novel perspective of adding local topological noise by incorporating a novel algorithm Density-Aware k nearest neighbour (DA-kNN) followed by denoising to map noisy perturbations to the topology of the point cloud. Unlike previous methods, we progressively upsample the point cloud, starting at a 2 x upsampling ratio and advancing to a desired ratio. TP-NoDe generates intermediate upsampling resolutions for free, obviating the need to train different models for varying upsampling ratios. TP-NoDe mitigates the need for task-specific training of upsampling networks for a specific upsampling ratio by reusing a point cloud denoising framework. We demonstrate the supremacy of our method TP-NoDe on the PU-GAN dataset and compare it with state-of-the-art upsampling methods. The code is publicly available at https://github. com/Akash-Kumbar/TPNoDe. },
+    author    = {Kumbar, Akash and Anvekar, Tejas and Vikrama, Tulasi Amitha and Tabib, Ramesh Ashok and Mudenagudi, Uma},
+    title     = {TP-NoDe: Topology-Aware Progressive Noising and Denoising of Point Clouds Towards Upsampling},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2023},
+    pages     = {2272-2282},
+    pdf       = {https://openaccess.thecvf.com/content/ICCV2023W/WiCV/papers/Kumbar_TP-NoDe_Topology-Aware_Progressive_Noising_and_Denoising_of_Point_Clouds_Towards_ICCVW_2023_paper.pdf},
+    code      = {https://github.com/Akash-Kumbar/TP-NoDe},
+    bibtex_show  = true
+}
+
