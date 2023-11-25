@@ -8,7 +8,7 @@ profile:
   align: left
   image: picture.jpg
   image_circular: false # crops the image to make it circular
-  more_info: [📜Resume](assets/pdf/TejasAnvekar_Resume_v7.pdf)
+  more_info: >
 
 
 news: true  # includes a list of news items
@@ -23,4 +23,4 @@ My research focus spans the domains of **3D Comupter Vision**, **Self-Supervised
 
 Beyond by academic endeavors, I serve as an external collaborator to distinguised scholars including [Prof. Chandra Kambhamettu](https://www.eecis.udel.edu/~chandra/) @ [VIMS Lab](https://bigdatavision.org/) &#x7c; University of Delaware and [Dr. Dena Bazazian](https://denabazazian.github.io/) @ University of Plymouth. 
 
-I did my Bachelor's degree in Electronics and Communication at [KLE Technological University](https://www.kletech.ac.in/), India where I was advised by [Prof. Uma Mudenagudi](https://kletech.irins.org/profile/159972#other_information_panel) and worked on Self-Supervised geometric methods for a DST funded project to Categorize Crowdsourced data.
+I did my Bachelor's degree in Electronics and Communication at [KLE Technological University](https://www.kletech.ac.in/), India where I was advised by [Prof. Uma Mudenagudi](https://kletech.irins.org/profile/159972#other_information_panel) and worked on Self-Supervised geometric methods for a DST funded project to Categorize Crowdsourced data. [📜Resume](assets/pdf/TejasAnvekar_Resume_v7.pdf)
