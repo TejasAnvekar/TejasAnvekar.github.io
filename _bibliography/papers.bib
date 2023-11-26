@@ -12,12 +12,13 @@
     pages     = {5093-5100},
     video     = {https://www.youtube.com/watch?v=OF6pEk6fNBE},
     pdf       = { https://openaccess.thecvf.com/content/CVPR2022W/IMW/papers/Hegde_DA-AE_Disparity-Alleviation_Auto-Encoder_Towards_Categorization_of_Heritage_Images_for_Aggrandized_CVPRW_2022_paper.pdf},
-    bibtex_show  = true
+    bibtex_show  = true,
+    preview = {DA-AE.gif}
 }
 
 @inproceedings{10.1145/3550082.3564198,
     abbr     = {SIGGRAPH-ASIA},
-    abstrac  = {In this work, we propose a novel Metric-K Nearest Neighbor (-KNN) to facilitate topology aware learning in point clouds. Topology aware learning is achieved by accumulation of local features in deep-learning model. Recent work rely on Ball queries or K-Nearest-Neighbor (KNN) for local feature extraction of point clouds and finds challenges in retaining topological information. -KNN employes a generalised Minkowski distance in the KNN search algorithm for topological representation of point clouds. -KNN enables state-of-the-art point cloud methods to perform topology aware downstream tasks. We demonstrate the performance of -KNN as plugin towards point cloud classification, part-segmentation, and denoising using benchmark dataset. },
+    abstrac  = {In this work, we propose a novel Metric-K Nearest Neighbor (M-KNN) to facilitate topology aware learning in point clouds. Topology aware learning is achieved by accumulation of local features in deep-learning model. Recent work rely on Ball queries or K-Nearest-Neighbor (KNN) for local feature extraction of point clouds and finds challenges in retaining topological information. -KNN employes a generalised Minkowski distance in the KNN search algorithm for topological representation of point clouds. -KNN enables state-of-the-art point cloud methods to perform topology aware downstream tasks. We demonstrate the performance of -KNN as plugin towards point cloud classification, part-segmentation, and denoising using benchmark dataset. },
     author   = {Anvekar, Tejas and Tabib, Ramesh Ashok and Hegde, Dikshit and Mudenagudi, Uma},
     title    = {Metric-KNN is All You Need},
     year     = {2022},
@@ -33,7 +34,10 @@
     location  = {Daegu, Republic of Korea},
     series    = {SA '22},
     video     = {https://www.youtube.com/watch?v=O_aDiHsDgvw},
-    bibtex_show  = true
+    bibtex_show  = true,
+    preview = {MKNN.gif},
+    pdf = {https://dl.acm.org/doi/pdf/10.1145/3550082.3564198?casa_token=LGIuB_jCDXsAAAAA:oqgSqt30Lu8p6lpum7KjQllZM6ntBzfcs1U8-ZLquInhUbYAw2zrlT-J19ZSR8TL9RtvfgmVfE4u},
+    poster = {https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3550082.3564198&file=sa22posters_39_poster.pdf}
 }
 
 @InProceedings{Anvekar_2023_CVPR,
@@ -51,7 +55,8 @@
     pdf = {https://openaccess.thecvf.com/content/CVPR2023W/DLGC/papers/Anvekar_GPr-Net_Geometric_Prototypical_Network_for_Point_Cloud_Few-Shot_Learning_CVPRW_2023_paper.pdf}, 
     selected = true,  
     code = {https://github.com/TejasAnvekar/GPr-Net}, 
-    video = {https://drive.google.com/file/d/11I5iM36nXg8XnLRWHXfOIBdK-oy54RDi/view}
+    video = {https://drive.google.com/file/d/11I5iM36nXg8XnLRWHXfOIBdK-oy54RDi/view},
+    preview = {GPr-Net.gif}
 }
 
 @InProceedings{Tabib_2023_CVPR,
@@ -65,21 +70,23 @@
     pages     = {2735-2743},
     video     = {https://www.youtube.com/watch?v=h26HT76zcGc},
     pdf       = {https://openaccess.thecvf.com/content/CVPR2023W/StruCo3D/papers/Tabib_IPD-Net_SO3_Invariant_Primitive_Decompositional_Network_for_3D_Point_Clouds_CVPRW_2023_paper.pdf},
-    bibtex_show  = true
+    bibtex_show  = true,
+    preview = {IPD-Net-Poster.png},
+    poster = {https://struco3d.github.io/cvpr2023/papers/05_poster.pdf}
 }
 
 @misc{kundargi2023pointclimb,
-      abbr      = {arXiv},
-      abstract  = {Point clouds offer comprehensive and precise data regarding the contour and configuration of objects. Employing such geometric and topological 3D information of objects in class incremental learning can aid endless application in 3D-computer vision. Well known 3D-point cloud class incremental learning methods for addressing catastrophic forgetting generally entail the usage of previously encountered data, which can present difficulties in situations where there are restrictions on memory or when there are concerns about the legality of the data. Towards this we pioneer to leverage exemplar free class incremental learning on Point Clouds. In this paper we propose PointCLIMB: An exemplar Free Class Incremental Learning Benchmark. We focus on a pragmatic perspective to consider novel classes for class incremental learning on 3D point clouds. We setup a benchmark for 3D Exemplar free class incremental learning. We investigate performance of various backbones on 3D-Exemplar Free Class Incremental Learning framework. We demonstrate our results on ModelNet40 dataset.},
-      title     = {PointCLIMB: An Exemplar-Free Point Cloud Class Incremental Benchmark}, 
-      author    = {Shivanand Kundargi and Tejas Anvekar and Ramesh Ashok Tabib and Uma Mudenagudi},
-      year      = {2023},
-      eprint    = {2304.06775},
-      archivePrefix = {arXiv},
-      primaryClass  = {cs.CV},
-      arxiv     = {2304.06775.pdf},
-      pdf       = {https://browse.arxiv.org/pdf/2304.06775.pdf},
-    bibtex_show  = true
+    abstract  = {Point clouds offer comprehensive and precise data regarding the contour and configuration of objects. Employing such geometric and topological 3D information of objects in class incremental learning can aid endless application in 3D-computer vision. Well known 3D-point cloud class incremental learning methods for addressing catastrophic forgetting generally entail the usage of previously encountered data, which can present difficulties in situations where there are restrictions on memory or when there are concerns about the legality of the data. Towards this we pioneer to leverage exemplar free class incremental learning on Point Clouds. In this paper we propose PointCLIMB: An exemplar Free Class Incremental Learning Benchmark. We focus on a pragmatic perspective to consider novel classes for class incremental learning on 3D point clouds. We setup a benchmark for 3D Exemplar free class incremental learning. We investigate performance of various backbones on 3D-Exemplar Free Class Incremental Learning framework. We demonstrate our results on ModelNet40 dataset.},
+    title     = {PointCLIMB: An Exemplar-Free Point Cloud Class Incremental Benchmark}, 
+    author    = {Shivanand Kundargi and Tejas Anvekar and Ramesh Ashok Tabib and Uma Mudenagudi},
+    year      = {2023},
+    eprint    = {2304.06775},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.CV},
+    arxiv     = {2304.06775.pdf},
+    pdf       = {https://browse.arxiv.org/pdf/2304.06775.pdf},
+    bibtex_show  = true,
+    preview = {PointCLIMB.png}
 }
 
 @InProceedings{Anvekar_2022_CVPR,
@@ -94,7 +101,8 @@
     video     = {https://www.youtube.com/watch?v=vDF61_EMKBU},
     pdf       = {https://openaccess.thecvf.com/content/CVPR2022W/DLGC/papers/Anvekar_VG-VAE_A_Venatus_Geometry_Point-Cloud_Variational_Auto-Encoder_CVPRW_2022_paper.pdf},
     selected  = true,
-    bibtex_show  = true
+    bibtex_show  = true,
+    preview = {VG-VAE.gif}
 }
 
 
@@ -108,7 +116,8 @@
     year      = {2023},
     pages     = {265-302},
     pdf       = {https://openaccess.thecvf.com/content/WACV2023W/MaCVi/papers/Kiefer_1st_Workshop_on_Maritime_Computer_Vision_MaCVi_2023_Challenge_Results_WACVW_2023_paper.pdf},
-    bibtex_show  = true
+    bibtex_show  = true,
+    preview = {MaCVi-WACV.png}
 }
 
 @InProceedings{Kumbar_2023_ICCV,
@@ -123,7 +132,8 @@
     pdf       = {https://openaccess.thecvf.com/content/ICCV2023W/e-Heritage/papers/Kumbar_ASUR3D_Arbitrary_Scale_Upsampling_and_Refinement_of_3D_Point_Clouds_ICCVW_2023_paper.pdf},
     selected  = true,
     video     = {https://www.youtube.com/watch?v=_fs3b8oMvKc} ,
-    bibtex_show  = true
+    bibtex_show  = true,
+    preview = {ASUR3D.gif}
 }
 
 @InProceedings{Tabib_2023_ICCV,
@@ -137,7 +147,8 @@
     pages     = {1603-1612},
     video     = {https://www.youtube.com/watch?v=6I4SuJ10KGc},
     pdf       = {https://openaccess.thecvf.com/content/ICCV2023W/e-Heritage/papers/Tabib_DeFi_Detection_and_Filling_of_Holes_in_Point_Clouds_Towards_ICCVW_2023_paper.pdf},
-    bibtex_show  = true
+    bibtex_show  = true,
+    preview = {DEFI.png}
 
 }
 
@@ -152,6 +163,7 @@
     pages     = {2272-2282},
     pdf       = {https://openaccess.thecvf.com/content/ICCV2023W/WiCV/papers/Kumbar_TP-NoDe_Topology-Aware_Progressive_Noising_and_Denoising_of_Point_Clouds_Towards_ICCVW_2023_paper.pdf},
     code      = {https://github.com/Akash-Kumbar/TP-NoDe},
-    bibtex_show  = true
+    bibtex_show  = true,
+    preview = {TP-NoDe.png}
 }
 

@@ -74,9 +74,11 @@ layout: default
             {{ content }}
           </div>
 
+          <hr>
+
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2 class="font-weight-bold"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2 class="font-weight"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
 
@@ -86,9 +88,11 @@ layout: default
             {%- include latest_posts.html %}
           {%- endif %}
 
+          <hr>
+
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2 class="font-weight-bold"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2 class="font-weight"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
 
@@ -162,7 +166,7 @@ layout: default
 
   const n1 = document.querySelector('#yellow-highlight-1');
   const n2 = document.querySelector('#yellow-highlight-2');
-  const n3 = document.querySelector('#purple-highlight-1');
+  // const n3 = document.querySelector('#purple-highlight-1');
   const n4 = document.querySelector('#purple-highlight-2');
   const n5 = document.querySelector('#blue-highlight-1');
   const n6 = document.querySelector('#blue-highlight-2');
@@ -170,7 +174,7 @@ layout: default
 
   const a1 = annotate(n1, { type: 'highlight', color: 'yellow'});
   const a2 = annotate(n2, { type: 'highlight', color: 'yellow'});
-  const a3 = annotate(n3, { type: 'highlight', color: '#F2A2E8'});
+  // const a3 = annotate(n3, { type: 'highlight', color: '#F2A2E8'});
   const a4 = annotate(n4, { type: 'highlight', color: '#F2A2E8'});
   const a5 = annotate(n5, { type: 'highlight', color: '#ACE8FF'});
   const a6 = annotate(n6, { type: 'highlight', color: '#ACE8FF'});
@@ -183,22 +187,22 @@ layout: default
     a2.show();
   }, 1000); // Delay in milliseconds
   
-  setTimeout(() => {
-    a3.show();
-  }, 2000); // Delay in milliseconds
+  // setTimeout(() => {
+  //   a3.show();
+  // }, 2000); // Delay in milliseconds
   
   setTimeout(() => {
     a4.show();
-  }, 2500); // Delay in milliseconds
+  }, 2000); // Delay in milliseconds
   
   setTimeout(() => {
     a5.show();
     a6.show();
-  }, 3500); // Delay in milliseconds
+  }, 3000); // Delay in milliseconds
 
   setTimeout(() => {
     a7.show();
-  }, 4500); // Delay in milliseconds
+  }, 4000); // Delay in milliseconds
 
 }
 
