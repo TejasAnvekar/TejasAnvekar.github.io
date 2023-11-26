@@ -1,3 +1,6 @@
+
+
+
 /*!
  * Bootstrap v4.6.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -189,7 +192,7 @@ a:not([href]):not([class]):hover {
 /* Highlighter animation */
 
 /* New styles for the highlight effect */
-.highlight-text-yellow {
+/* .highlight-text-yellow {
     background: linear-gradient(to left, yellow 50%, transparent 50%);
     background-size: 200% 100%;
     animation: highlight 1.5s ease-in-out forwards, jitter 0.1s infinite alternate;
@@ -227,7 +230,7 @@ a:not([href]):not([class]):hover {
     100% {
       transform: translateX(10%);
     }
-  }
+  } */
 
 
 
@@ -1800,6 +1803,11 @@ a.close.disabled {
     content: ""
 }
 
+.flex-wrap {
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important
+}
+
 .flex-nowrap {
     -ms-flex-wrap: nowrap !important;
     flex-wrap: nowrap !important
@@ -1860,6 +1868,10 @@ a.close.disabled {
 
 .ml-auto {
     margin-left: auto !important
+}
+
+.text-justify {
+    text-align: justify !important
 }
 
 .text-right {
