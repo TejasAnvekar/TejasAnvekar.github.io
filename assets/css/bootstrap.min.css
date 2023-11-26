@@ -1,3 +1,6 @@
+
+
+
 /*!
  * Bootstrap v4.6.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -190,7 +193,7 @@ a:not([href]):not([class]):hover {
 /* Highlighter animation */
 
 /* New styles for the highlight effect */
-.highlight-text-yellow {
+/* .highlight-text-yellow {
     background: linear-gradient(to left, yellow 50%, transparent 50%);
     background-size: 200% 100%;
     animation: highlight 1.5s ease-in-out forwards, jitter 0.1s infinite alternate;
@@ -228,7 +231,7 @@ a:not([href]):not([class]):hover {
     100% {
       transform: translateX(10%);
     }
-  }
+  } */
 
 
 

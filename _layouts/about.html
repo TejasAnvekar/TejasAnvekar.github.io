@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.cdnfonts.com/css/samarkan" rel="stylesheet">
+
+
 <!-- about.html -->
       <div class="post">
         <header class="post-header">
@@ -9,9 +14,11 @@ layout: default
             {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1> -->
           <h1 class="post-title">
-            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+            <span style="font-family: Samarkan; color: #0076df">{{ site.first_name }}</span> {{ site.middle_name }} <span style="font-family: Samarkan; font-weight: lighter;">{{ site.last_name }}  <sup><img src="assets/img/icons/india.png" alt="Flag" style="height: 25px;"></sup> </span> 
           </h1>
-          <p class="desc">{{ page.subtitle }}</p>
+          <p class="desc">
+            Computer Vision | <span id="yellow-highlight-2">3D Geometry</span> | Continual Learning • learn ⇄ imagine ⇄ manifest
+          </p>
         </header>
 
         <article>
@@ -32,21 +39,44 @@ layout: default
               alt=page.profile.image
               cache_bust=true -%}
             {% endif -%}
-            {%- if page.profile.more_info %}
+
+            <!-- {%- if page.profile.more_info %} -->
             <div class="more-info">
-              {{ page.profile.more_info }}
+              <!-- {{ page.profile.more_info }} -->
+              <!-- <p><a href="assets/pdf/TejasAnvekar_Resume_v7.pdf"> <img src="assets/img/icons/cv.png" alt="resume" style="width: 10%;"></a>  <a href="mailto:anvekartejas@gmail.com"><img src="assets/img/icons/gmail.png" alt="email" style="width: 10%;"> </a> 
+                <a href="anvekartejas@gmail.com"><img src="assets/img/icons/linkedin.png" alt="linkedin" style="width: 10%;"> </a>  <a href="anvekartejas@gmail.com"><img src="assets/img/icons/Google_Scholar_logo.svg.png" alt="scholar" style="width: 10%;"> </a> 
+                <a href="anvekartejas@gmail.com"><img src="assets/img/icons/twitter.png" alt="twitter" style="width: 10%;"> </a>
+              </p> -->
+
+
+              <a href="mailto:anvekartejas@gmail.com" class="icon">
+                <img src="assets/img/icons/gmail.png" alt="email">
+              </a>
+              <a href="https://www.linkedin.com/in/tejas-anvekar-b88b461a4/?originalSubdomain=in" class="icon">
+                <img src="assets/img/icons/linkedin.png" alt="linkedin">
+              </a>
+              <a href="https://twitter.com/anvekar_tejas" class="icon">
+                <img src="assets/img/icons/twitter.png" alt="Twitter">
+              </a>
+              <a href="https://scholar.google.com/citations?user=nmHPl6QAAAAJ&hl=en&oi=ao" class="icon">
+                <img src="assets/img/icons/Google_Scholar_logo.svg.png" alt="scholar">
+              </a>
+              <a href="assets/pdf/TejasAnvekar_Resume_v7.pdf" class="icon">
+                <img src="assets/img/icons/cv.png" alt="CV">
+              </a>
+
             </div>
-            {%- endif %}
+            <!-- {%- endif %} -->
           </div>
           {%- endif %}
 
-          <div class="clearfix">
+          <div style="text-align: justify; text-justify: inter-word;" class="clearfix">
             {{ content }}
           </div>
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2 class="font-weight-bold"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
 
@@ -58,11 +88,11 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2 class="font-weight-bold"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
 
-          <!-- Social -->
+          <!-- Social
           {%- if page.social %}
             <div class="social">
               <div class="contact-icons">
@@ -74,7 +104,102 @@ layout: default
               </div>
 
             </div>
-          {%- endif %}
+          {%- endif %} -->
         </article>
 
 </div>
+
+
+
+
+<!-- Social Media -->
+<style>
+.social-icons {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed for spacing */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icon {
+  flex: 1 0 20%; /* Adjust as needed to fit the number of icons in a row */
+  max-width: 100px; /* Maximum width for the icons */
+  margin: 3%; /* Adjust spacing between icons */
+  text-align: center;
+}
+
+
+.icon img {
+  width: 10%;
+  height: auto;
+}
+
+.icon:hover {
+  text-decoration: none; 
+  color: white;
+  background-color: transparent !important;
+
+}
+
+.icon:hover img{
+  transform: translateY(-3px);
+}
+
+/* /* Media query for mobile devices */
+/* @media (max-width: 768px) { */
+  /* .icon { */
+    /* flex-basis: 40%; Adjust to fit icons in a row on smaller screens */
+    /* max-width: 80px; Adjust maximum width for smaller screens */
+  /* } */
+/* }  */
+</style>
+
+
+<script type="module">
+  import { annotate } from 'https://unpkg.com/rough-notation?module';
+  
+  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+  const n1 = document.querySelector('#yellow-highlight-1');
+  const n2 = document.querySelector('#yellow-highlight-2');
+  const n3 = document.querySelector('#purple-highlight-1');
+  const n4 = document.querySelector('#purple-highlight-2');
+  const n5 = document.querySelector('#blue-highlight-1');
+  const n6 = document.querySelector('#blue-highlight-2');
+  const n7 = document.querySelector('#blue-highlight-3');
+
+  const a1 = annotate(n1, { type: 'highlight', color: 'yellow'});
+  const a2 = annotate(n2, { type: 'highlight', color: 'yellow'});
+  const a3 = annotate(n3, { type: 'highlight', color: '#F2A2E8'});
+  const a4 = annotate(n4, { type: 'highlight', color: '#F2A2E8'});
+  const a5 = annotate(n5, { type: 'highlight', color: '#ACE8FF'});
+  const a6 = annotate(n6, { type: 'highlight', color: '#ACE8FF'});
+  const a7 = annotate(n7, { type: 'highlight', color: '#ACE8FF'});
+
+  
+ if (!isMobile) {
+  setTimeout(() => {
+    a1.show();
+    a2.show();
+  }, 1000); // Delay in milliseconds
+  
+  setTimeout(() => {
+    a3.show();
+  }, 2000); // Delay in milliseconds
+  
+  setTimeout(() => {
+    a4.show();
+  }, 2500); // Delay in milliseconds
+  
+  setTimeout(() => {
+    a5.show();
+    a6.show();
+  }, 3500); // Delay in milliseconds
+
+  setTimeout(() => {
+    a7.show();
+  }, 4500); // Delay in milliseconds
+
+}
+
+</script>
