@@ -30,6 +30,10 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/samarkan" rel="stylesheet">
+
     <!-- Dark Mode -->
     {% if site.enable_darkmode %}
     <link rel="stylesheet" href="{{ '/assets/css/jekyll-pygments-themes-native.css' | relative_url | bust_file_cache }}" media="none" id="highlight_theme_dark" />
