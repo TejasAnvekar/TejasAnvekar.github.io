@@ -91,6 +91,12 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
+          <hr>
+
+          <h2 class="font-weight">Reviewer Experience</h2>
+          <div>DLGC | CVPR23-Workshop, ICRA24</div>
+          
+
           <!-- Social
           {%- if page.social %}
             <div class="social">
@@ -144,20 +150,24 @@ layout: default
   transform: translateY(-3px);
 }
 
-/* /* Media query for mobile devices */
-/* @media (max-width: 768px) { */
-  /* .icon { */
-    /* flex-basis: 40%; Adjust to fit icons in a row on smaller screens */
-    /* max-width: 80px; Adjust maximum width for smaller screens */
-  /* } */
-/* }  */
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .icon {
+    flex-basis: 40%; /* Adjust to fit icons in a row on smaller screens */
+    max-width: 80px; /* Adjust maximum width for smaller screens */
+  }
+  .icon img {
+    width: 7%;
+    height: auto;
+}
+} 
 </style>
 
 
 <script type="module">
   import { annotate } from 'https://unpkg.com/rough-notation?module';
   
-  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  // const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
   const n1 = document.querySelector('#yellow-highlight-1');
   const n2 = document.querySelector('#yellow-highlight-2');
@@ -165,18 +175,18 @@ layout: default
   const n4 = document.querySelector('#purple-highlight-2');
   const n5 = document.querySelector('#blue-highlight-1');
   const n6 = document.querySelector('#blue-highlight-2');
-  const n7 = document.querySelector('#blue-highlight-3');
+  // const n7 = document.querySelector('#blue-highlight-3');
 
-  const a1 = annotate(n1, { type: 'highlight', color: 'yellow'});
-  const a2 = annotate(n2, { type: 'highlight', color: 'yellow'});
+  const a1 = annotate(n1, { type: 'highlight', color: 'yellow', iterations: 1 , multiline: true});
+  const a2 = annotate(n2, { type: 'highlight', color: 'yellow', iterations: 1, multiline: true});
   // const a3 = annotate(n3, { type: 'highlight', color: '#F2A2E8'});
-  const a4 = annotate(n4, { type: 'highlight', color: '#F2A2E8'});
-  const a5 = annotate(n5, { type: 'highlight', color: '#ACE8FF'});
-  const a6 = annotate(n6, { type: 'highlight', color: '#ACE8FF'});
-  const a7 = annotate(n7, { type: 'highlight', color: '#ACE8FF'});
+  const a4 = annotate(n4, { type: 'highlight', color: '#F2A2E8',iterations: 1, multiline: true});
+  const a5 = annotate(n5, { type: 'highlight', color: '#ACE8FF',iterations: 1, multiline: true});
+  const a6 = annotate(n6, { type: 'highlight', color: '#ACE8FF',iterations: 1, multiline: true});
+  // const a7 = annotate(n7, { type: 'highlight', color: '#ACE8FF'});
 
   
- if (!isMobile) {
+//  if (!isMobile) {
   setTimeout(() => {
     a1.show();
     a2.show();
@@ -195,10 +205,10 @@ layout: default
     a6.show();
   }, 3000); // Delay in milliseconds
 
-  setTimeout(() => {
-    a7.show();
-  }, 4000); // Delay in milliseconds
+  // setTimeout(() => {
+  //   a7.show();
+  // }, 4000); // Delay in milliseconds
 
-}
+// }
 
 </script>
