@@ -1,5 +1,18 @@
----
----
+
+
+@misc{anvekar2025mahalanobisknnstatisticallens,
+    abbr      = {WACV-W},
+    abstract  = {In this paper, we discuss Mahalanobis k-NN: a statistical lens designed to address the challenges of feature matching in learning-based point cloud registration when confronted with an arbitrary density of point clouds, either in the source or target point cloud. We tackle this by adopting Mahalanobis k-NN's inherent property to capture the distribution of the local neighborhood and surficial geometry. Our method can be seamlessly integrated into any local-graph-based point cloud analysis method. In this paper, we focus on two distinct methodologies: Deep Closest Point (DCP) and Deep Universal Manifold Embedding (DeepUME). Our extensive benchmarking on the ModelNet40 and Faust datasets highlights the efficacy of the proposed method in point cloud registration tasks. Moreover, we establish for the first time that the features acquired through point cloud registration inherently can possess discriminative capabilities. This is evident by a substantial improvement of about 20\% in the average accuracy observed in the point cloud few-shot classification task benchmarked on ModelNet40 and ScanObjectNN. The code is publicly available at https://github.com/TejasAnvekar/Mahalanobis-k-NN},
+    title     = {Mahalanobis k-NN: A Statistical Lens for Robust Point-Cloud Registrations}, 
+    author    = {Tejas Anvekar and Shivanand Venkanna Sheshappanavar},
+    month     = {Feb},
+    year      = {2025},
+    eprint    = {2409.06267},
+    pdf       = {https://arxiv.org/abs/2409.06267},
+    bibtex_show  = true,
+    preview    = {MahKNN.gif}
+
+}
 
 @InProceedings{Hegde_2022_CVPR,
     abbr      = {CVPR-W},
@@ -168,19 +181,28 @@
 }
 
 @InProceedings{aaai,
-    abbr={AAAI-Poster},
+    abbr      = {AAAI-Poster},
+    abstract  = {Neural Radiance Fields (NeRF) have been extensively explored as a leading approach for modeling and representing 3D data across various domains. Their ability to capture arbitrary scale point clouds and generate novel views makes them particularly valuable for digitizing cultural heritage sites. However, despite their impressive rendering capabilities, prior methods have often overlooked a significant real-world challenge: handling open-world scenarios characterized by unstructured data containing multiple classes in a single set of unlabeled images. To address this challenge, we propose a novel method NCD-NeRF that leverages Novel-Class Discovery to effectively tackle the complexities inherent in real-world data with unlabeled classes while excelling in producing high-quality NeRF representation. To validate our approach, we conducted a benchmarking analysis using a custom-collected dataset featuring UNESCO World Heritage sites in India. We observe that our proposed NCD-NeRF can parallely discover novel classes and render high-quality 3D volumes.},
     author    = {Shivanand Kundargi and Tejas Anvekar and Ramesh Ashok Tabib and Uma Mudenagudi},
     title     = {Novel Class Discovery for Representation of Real-World Heritage Data as Neural Radiance Fields (Student Abstract)},
     month     = {March},
     year      = {2024},
-    preview = {coming-soon.png}
+    pdf       = {https://ojs.aaai.org/index.php/AAAI/article/view/30469/32578},
+    booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+    bibtex_show  = true,
+    preview   = {NCD_Heritage.png}
 }
 
 @InProceedings{3dv,
-    abbr={3DV},
+    abbr      = {3DV},
+    abstract =  {Fine-grained grocery object recognition is an important computer vision problem with broad applications in automatic checkout, in-store robotic navigation, and assistive technologies for the visually impaired. Existing datasets on groceries are mainly 2D images. Models trained on these datasets are limited to learning features from the regular 2D grids. While portable 3D sensors such as Kinect were commonly available for mobile phones, sensors such as LiDAR and TrueDepth, have recently been integrated into mobile phones. Despite the availability of mobile 3D sensors, there are currently no dedicated real-world large-scale benchmark 3D datasets for grocery. In addition, existing 3D datasets lack fine-grained grocery categories and have limited training samples. Furthermore, collecting data by going around the object versus the traditional photo capture makes data collection cumbersome. Thus, we introduce a large-scale grocery dataset called 3DGrocery100. It constitutes 100 classes, with a total of 87,898 3D point clouds created from 10,755 RGB-D single-view images. We benchmark our dataset on six recent stateof-the-art 3D point cloud classification models. Additionally, we also benchmark the dataset on few-shot and continual learning point cloud classification tasks. Project Page: https://bigdatavision.org/3DGrocery100/.},
     author    = {Shivanand Venkanna Sheshappanavar and Tejas Anvekar and Shivanand Kundargi and Yufan Wang and Chandra Kembhamettu},
     title     = {A Benchmark Grocery Dataset of Realworld Point Clouds from Single View},
     month     = {March},
     year      = {2024},
-    preview = {coming-soon.png}
+    booktitle = {2024 International Conference on 3D Vision (3DV)},
+    pdf       = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10550623},
+    bibtex_show  = true,
+    arxiv = {2402.07819},
+    preview = {3DGrocery.png}
 }
