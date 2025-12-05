@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About Me on Tejas Anvekar</title><link>https://TejasAnvekar.github.io/</link><description>Recent content in About Me on Tejas Anvekar</description><generator>Hugo</generator><language>en</language><atom:link href="https://TejasAnvekar.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Contact</title><link>https://TejasAnvekar.github.io/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://TejasAnvekar.github.io/contact/</guid><description>&lt;ul&gt;
+&lt;li&gt;Email: &lt;a href="mailto:tanvekar@asu.edu"&gt;tanvekar@asu.edu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Phone: &lt;a href="tel:+1-3026020432"&gt;+1-302-602-0432&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="social"&gt;Social&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://www.linkedin.com/in/tejas-anvekar-b88b461a4/"&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/anvekar_tejas"&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>News</title><link>https://TejasAnvekar.github.io/news/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://TejasAnvekar.github.io/news/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2025 →&lt;/strong&gt; Adobe Research Intern&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2025 →&lt;/strong&gt; CS PhD at ASU (Transferred from University of Delaware)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2024-2025 →&lt;/strong&gt; Started CS PhD at Univeristy of Delaware&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2023–2024 →&lt;/strong&gt; Research Intern, CYENS Centre of Excellence&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2022–2023 →&lt;/strong&gt; Research Assistant, KLE Tech (10+ papers published)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2021–2022 →&lt;/strong&gt; Intern at VayuTech &amp;amp; CeVI&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Projects</title><link>https://TejasAnvekar.github.io/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://TejasAnvekar.github.io/projects/</guid><description>&lt;p&gt;A selection of ongoing and past research projects.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="intent-guided-tabular-explainability-asu"&gt;Intent-Guided Tabular Explainability (ASU)&lt;/h3&gt;
+&lt;p&gt;Developing an agent-driven framework that combines domain rubrics with multimodal reasoning to generate &lt;strong&gt;expert-aligned table explanations&lt;/strong&gt; and identify structural or semantic issues.&lt;/p&gt;
+&lt;h3 id="chart-edit-evaluation-using-agentic-assessment-asu"&gt;Chart Edit Evaluation Using Agentic Assessment (ASU)&lt;/h3&gt;
+&lt;p&gt;Building a &lt;strong&gt;systematic agent-based evaluation pipeline&lt;/strong&gt; for chart edits, assessing correctness, semantic fidelity, and visual consistency.&lt;/p&gt;
+&lt;h3 id="detecting--mitigating-misleading-charts-with-mllm-agents-asu--ukp"&gt;Detecting &amp;amp; Mitigating Misleading Charts with MLLM Agents (ASU | UKP)&lt;/h3&gt;
+&lt;p&gt;Investigating how MLLMs misinterpret charts and building an agentic system that &lt;strong&gt;detects, explains, and corrects misleading visualizations&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Publications</title><link>https://TejasAnvekar.github.io/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://TejasAnvekar.github.io/publications/</guid><description>&lt;p&gt;&lt;span class="pub-badge badge-insubmission"&gt;In-Submission&lt;/span&gt;  
+&lt;span class="pub-badge badge-preprint"&gt;Pre-print&lt;/span&gt;  
+&lt;span class="pub-badge badge-journal"&gt;Journal&lt;/span&gt;  
+&lt;span class="pub-badge badge-conference"&gt;Conference&lt;/span&gt;  
+&lt;span class="pub-badge badge-workshop"&gt;Workshop&lt;/span&gt;  
+&lt;span class="pub-badge badge-demo"&gt;Demo or Poster&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Below is a list of my peer-reviewed publications and manuscripts.&lt;br&gt;
+(&lt;em&gt;See my CV for the full list. or &lt;a href="https://scholar.google.com/citations?user=nmHPl6QAAAAJ&amp;amp;hl=en"&gt;Google Scholar&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="under-review"&gt;Under Review&lt;/h2&gt;
+
+
+
+
+
+&lt;div class="pub-entry pub-insubmission"&gt;
+
+ 
+ &lt;div class="pub-header"&gt;
+ &lt;span class="pub-badge badge-insubmission"&gt;In-Submission&lt;/span&gt;
+
+ &lt;span class="pub-venue"&gt;&lt;/span&gt;
+ &lt;/div&gt;
+
+ 
+ &lt;div class="pub-body"&gt;
+ &lt;p&gt;&lt;strong&gt;TabReX: Tabular Referenceless eXplainable Evaluation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tejas Anvekar&lt;/strong&gt;, Junha Park, Aparna Garimella, Vivek Gupta&lt;/p&gt;
+
+ &lt;/div&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+
+&lt;div class="pub-entry pub-preprint"&gt;
+
+ 
+ &lt;div class="pub-header"&gt;
+ &lt;span class="pub-badge badge-preprint"&gt;Pre-print&lt;/span&gt;
+
+ &lt;span class="pub-venue"&gt;&lt;/span&gt;
+ &lt;/div&gt;
+
+ 
+ &lt;div class="pub-body"&gt;
+ &lt;p&gt;&lt;strong&gt;Is Architectural Complexity Overrated? Competitive and Interpretable Knowledge Graph Completion with RelatE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Abhijit Chakaborty, C. Dahal, A. Balasubramaniam, &lt;strong&gt;Tejas Anvekar&lt;/strong&gt;, Vivek Gupta&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2505.18971"&gt;[Paper]&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

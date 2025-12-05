@@ -1,0 +1,29 @@
+/* Research Interest Card Container */
+/* Grid Layout */
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px 24px;
+}
+
+/* Base styling for each item */
+.interest-item {
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #1a1a1a;
+  font-weight: 500;
+  border: 1px solid #e2e2e2;
+  align-content: center;
+  font-style: bold;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Pastel color variations (one per item) */
+.pastel-1 { background: #e8f4ff; border-color: #cfe7ff; } /* pastel blue */
+.pastel-2 { background: #fff3e8; border-color: #ffe1c7; } /* pastel peach */
+.pastel-3 { background: #e9ffe9; border-color: #cbf7cb; } /* pastel green */
+.pastel-4 { background: #fff0f4; border-color: #ffd2dd; } /* pastel pink */
+.pastel-5 { background: #f3f0ff; border-color: #e0d7ff; } /* pastel lilac */
+.pastel-6 { background: #fef9d9; border-color: #f5eeb0; } /* pastel yellow */
+.pastel-7 { background: #e9fdf9; border-color: #c6f4e7; } /* mint/turquoise */

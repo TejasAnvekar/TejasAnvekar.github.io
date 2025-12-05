@@ -1,0 +1,71 @@
+/* --- Container styling --- */
+.pub-entry {
+  padding: 14px 18px;
+  margin: 18px 0;
+  border-radius: 6px;
+}
+
+/* Header row: badge left, venue right */
+.pub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+/* Badge styling */
+.pub-badge {
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+/* Venue at the right */
+.pub-venue {
+  font-size: 14px;
+  font-style: bold;
+  opacity: 1;
+  font-weight: 600;
+}
+
+/* Body styling */
+.pub-body {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  color: #111;
+  line-height: 1.5;
+}
+
+/* LINKS: always black + underlined */
+.pub-body a {
+  color: #000 !important;
+  text-decoration: underline !important;
+}
+.pub-body a:hover {
+  text-decoration: none !important;
+}
+
+/* --- Type-Based Colors (Same aesthetics) --- */
+
+.pub-insubmission { background: #f2e9ff; border-color: #dfcfff; }
+.badge-insubmission { background: #dfcfff; }
+
+.pub-preprint { background: #ffeaea; border-color: #f7c9c9; }
+.badge-preprint { background: #f7c9c9; }
+
+.pub-journal { background: #fff9d9; border-color: #f2e6a7; }
+.badge-journal { background: #f2e6a7; }
+
+.pub-conference { background: #e8f4ff; border-color: #c6e4ff; }
+.badge-conference { background: #c6e4ff; }
+
+.pub-workshop { background: #e7ffef; border-color: #bdf5cd; }
+.badge-workshop { background: #bdf5cd; }
+
+.pub-demo { background: #f6f6f6; border-color: #dedede; }
+.badge-demo { background: #dedede; }
+
+/* fallback */
+.pub-misc { background: #f5f5f5; border-color: #e0e0e0; }
+.badge-misc { background: #e0e0e0; }
