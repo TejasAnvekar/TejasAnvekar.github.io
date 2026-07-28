@@ -1,0 +1,317 @@
+body.section-blogs,
+body.page-blogs {
+  background: #fdf7f9;
+}
+
+body.section-blogs #content,
+body.page-blogs #content {
+  color: #1c0e13;
+  line-height: 1.75;
+}
+
+body.section-blogs #content .container,
+body.page-blogs #content .container {
+  max-width: 860px;
+}
+
+body.section-blogs #content p,
+body.page-blogs #content p,
+body.section-blogs #content li,
+body.page-blogs #content li {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #1c0e13;
+  letter-spacing: 0;
+}
+
+body.section-blogs #content h1,
+body.page-blogs #content h1,
+body.section-blogs #content h2,
+body.page-blogs #content h2,
+body.section-blogs #content h3,
+body.page-blogs #content h3 {
+  color: #1c0e13;
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
+body.section-blogs #content h1,
+body.page-blogs #content h1 {
+  font-size: 2.8rem;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+body.section-blogs #content h2,
+body.page-blogs #content h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-top: 2.6rem;
+  margin-bottom: 1.1rem;
+  display: inline-block;
+  position: relative;
+}
+
+body.section-blogs #content h3,
+body.page-blogs #content h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+body.section-blogs #content h2::after,
+body.page-blogs #content h2::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 2px;
+  margin-top: 0.35rem;
+  border-radius: 999px;
+  background: #8c1d40;
+  opacity: 0.75;
+}
+
+body.section-blogs #content ul,
+body.page-blogs #content ul {
+  padding-left: 1.5rem;
+}
+
+body.section-blogs #content li,
+body.page-blogs #content li {
+  margin-bottom: 0.55rem;
+}
+
+body.section-blogs #content blockquote,
+body.page-blogs #content blockquote {
+  background: #f8edf1;
+  border-left: 3px solid #8c1d40;
+  border-radius: 0 8px 8px 0;
+  box-shadow: inset 0 0 0 1px rgba(140, 29, 64, 0.06);
+  padding: 1.2rem 1.5rem;
+  font-style: normal;
+}
+
+body.section-blogs #content .MathJax,
+body.page-blogs #content .MathJax,
+body.section-blogs #content mjx-container,
+body.page-blogs #content mjx-container {
+  font-size: 1.02em !important;
+  line-height: normal !important;
+}
+
+body.section-blogs #content mjx-container *,
+body.page-blogs #content mjx-container * {
+  line-height: normal !important;
+}
+
+body.section-blogs #content .MathJax_Display,
+body.page-blogs #content .MathJax_Display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+body.section-blogs #content mjx-container[display="true"],
+body.page-blogs #content mjx-container[display="true"] {
+  margin: 1.25rem 0 1.4rem !important;
+}
+
+body.section-blogs #content center,
+body.page-blogs #content center {
+  display: block;
+  max-width: 780px;
+  margin: 0 auto 1rem;
+  color: #555;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+body.section-blogs #content hr,
+body.page-blogs #content hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(140, 29, 64, 0.45) 25%, rgba(140, 29, 64, 0.45) 75%, transparent);
+  margin: 3rem 0;
+  opacity: 0.4;
+}
+
+body.section-blogs #content a,
+body.page-blogs #content a {
+  color: #8c1d40;
+  text-decoration: none;
+}
+
+body.section-blogs #content a:hover,
+body.page-blogs #content a:hover {
+  color: #6f1532;
+  text-decoration: underline;
+}
+
+body.section-blogs #content ul li::marker,
+body.page-blogs #content ul li::marker {
+  color: #8c1d40;
+}
+
+body.section-blogs .blog-shell,
+body.page-blogs .blog-shell {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+body.section-blogs .blog-index-header,
+body.page-blogs .blog-post-header {
+  max-width: 760px;
+  margin: 0 auto 2rem;
+}
+
+body.section-blogs .blog-index-header {
+  text-align: center;
+  margin-bottom: 2.8rem;
+}
+
+body.section-blogs .blog-eyebrow,
+body.page-blogs .blog-eyebrow {
+  color: #8c1d40;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+body.section-blogs .blog-index-intro,
+body.page-blogs .blog-post-meta {
+  color: #6b4455;
+}
+
+body.section-blogs .blog-index-intro {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+body.section-blogs .blog-index-intro p,
+body.page-blogs .blog-post-meta {
+  font-size: 0.98rem;
+}
+
+body.section-blogs .blog-index-list {
+  max-width: 760px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+body.section-blogs .blog-card {
+  border: 1px solid rgba(140, 29, 64, 0.18);
+  border-radius: 10px;
+  padding: 1.1rem 1.3rem;
+  background: #fff;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+body.section-blogs .blog-card:hover {
+  box-shadow: 0 3px 14px rgba(140, 29, 64, 0.12);
+  border-color: rgba(140, 29, 64, 0.32);
+}
+
+body.section-blogs .blog-card h2 {
+  margin-top: 0.1rem;
+  margin-bottom: 0.4rem;
+}
+
+body.section-blogs .blog-card h2 a {
+  color: #1c0e13;
+  text-decoration: none;
+}
+
+body.section-blogs .blog-card h2 a:hover {
+  color: #8c1d40;
+}
+
+body.section-blogs .blog-card-meta,
+body.page-blogs .blog-post-meta {
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.35rem;
+}
+
+body.section-blogs .blog-card-link {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+body.page-blogs .blog-post {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+body.page-blogs .blog-toc {
+  margin: 1.35rem 0 2rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid rgba(140, 29, 64, 0.18);
+  border-radius: 10px;
+  background: #fff;
+}
+
+body.page-blogs .blog-toc-title {
+  margin: 0 0 0.5rem;
+  color: #8c1d40;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+body.page-blogs #TableOfContents ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+body.page-blogs #TableOfContents li {
+  margin-bottom: 0.35rem;
+  font-size: 0.95rem;
+}
+
+body.page-blogs #TableOfContents a {
+  text-decoration: none;
+  color: #6b4455;
+}
+
+body.page-blogs #TableOfContents a:hover {
+  color: #1c0e13;
+}
+
+body.page-blogs .blog-post-content {
+  max-width: 760px;
+}
+
+@media (max-width: 768px) {
+  body.section-blogs #content p,
+  body.page-blogs #content p,
+  body.section-blogs #content li,
+  body.page-blogs #content li {
+    font-size: 0.98rem;
+  }
+
+  body.section-blogs .blog-card,
+  body.page-blogs .blog-toc {
+    padding: 1rem 1rem 0.95rem;
+  }
+
+  body.section-blogs #content h1,
+  body.page-blogs #content h1 {
+    font-size: 2.3rem;
+  }
+
+  body.section-blogs #content h2,
+  body.page-blogs #content h2 {
+    font-size: 1.6rem;
+  }
+}
